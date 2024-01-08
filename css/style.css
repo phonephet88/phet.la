@@ -1,0 +1,111 @@
+body{
+    font-size: 16px;
+    color: #fff;
+    background-color: #612;
+    font-family: Phetsarath OT;
+}
+/** header **/
+#header-nav{
+    background-color: #e100ff;
+    border-radius: 0;
+    border: 0;
+}
+#logo-img{
+    background: url('../img/restaurant-logo.png');
+    width: 150px;
+    height: 150px;
+    margin: 10px 15px 10px 20px;
+    padding: auto;
+    align-content: center;
+}
+
+#navbar-brand {
+    padding-top: 25px;
+
+}
+.navbar-brand h1 {
+    color: #222;
+    font-size: 1.5rem;
+    text-transform: phesa;
+    text-shadow: 1px 1px 1px #222;
+    font-weight: bold;
+    margin-bottom: 0;
+    line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+.navbar-brand p {
+    color: #222;
+    text-transform: uppercase;
+    font-size: .7em;
+    margin-top: 15px;
+}
+.navbar-brand p span{
+    vertical-align: middle;
+    color: #222;
+}
+#m3{
+    font-size: 30px;
+
+}
+#m4 {
+    font-size: 20px;
+}
+#nav-list {
+    margin-top: 10px;
+}
+.nav-item{
+    font-size: 22px;
+}
+#nav-list a {
+    color: #222;
+    text-align: center;
+}
+#nav-list a:hover {
+    background-color:#E7E7E7;
+}
+/* end headder */
+
+/* footer */
+.panel-footer{
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 25px;
+    background-color: #222;
+    border-top: 0;
+    color: white;
+}
+.panel-footer div.row {
+    margin-bottom: 35px;
+}
+#hours, #address{
+    line-height: 2;
+}
+#hours > span , #address > span {
+    font-size: 3rem;
+}
+#address p {
+    color: #557c3e;
+    font-size: .8rem;
+    line-height: 1.8;
+}
+#testimonials {
+    font-style: italic;
+}
+#testimonials p:nth-child(2){
+    margin-top: 25px;
+}
+#m4{
+    max-width: 340px;
+
+}
+#m1{
+    width: 100%;
+    height: 390px;
+}
+#mz1{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
